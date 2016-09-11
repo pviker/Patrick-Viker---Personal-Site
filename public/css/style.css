@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: darkgray;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+	border: 1px white;
+}
+
+.active a {
+	padding-top:.45em !important;
+	border-top: 2px solid white;
+	background-color: transparent !important;
+}
+
+.wrap-text {
+	text-align: justify;
+}
+
+.right {
+  	position: relative;
+	margin-top: 2em;
+  	right: 0px;
+  	width: 150px;
+	margin-left: 50%;	
+}
+
+.right-float {
+	margin-left: 1em;
+  	width: 200px;
+	float: right;
+}
+
+li.nav-link-center, a.nav-link-center {
+	margin-top: .5em;
+	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+}
+
+a.intouch span:hover {
+	color: orange; 
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+a.nav-hover:hover {
+	transition-property: color;
+	transition-duration: 1s;
+}
+
+.jumbo-color {
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.h1-font {
+	font-family: 'Poiret One', cursive;
+}
+
+.color-white {
+	color: white !important;
+	font-family: 'Poiret One', cursive;
+}
+
+div.brand-margin {
+	margin-left: 2em !important;
+}
+
+.flex-container {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-item {
+	margin: 3%;
+}
+
+.profile-img {
+	width: 100%;
+	height: 100%;
+}	
+
+#about-me {
+	border-radius: 0px 0px 0px 0px;
+}
+
+#social {
+/* 	background-color: white; */
+	border-radius: 0px 0px 0px 0px;
+}
+
+#profile {
+	border-radius: 0px 0px 0px 0px;
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.about-me-section {
+	background: #fff;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.profile-section {
+	background: #eee;
+    height: 100%;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.contact-section {
+    background: #fff;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.jumbotron{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
